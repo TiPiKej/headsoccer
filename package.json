@@ -1,0 +1,16 @@
+{
+  "name": "headsoccer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "cd ./dist/ && live-server",
+    "start": "code ./dist/ && npm run startServer"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.0"
+  }
+}
